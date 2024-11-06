@@ -1,6 +1,4 @@
-
 ![Logo](https://i.ibb.co/mqLYrCr/Codex.png)
-
 
 # CODEX
 
@@ -10,13 +8,6 @@ CODEX is a Remote Code Executor which lets you execute short code snippets of yo
 
 [Demo Link](https://www.youtube.com/watch?v=TSeHKnyP0CI)
 
-## Authors
-
-- [@goldsnort](https://www.github.com/goldsnort)
-- [@Rithvik0701](https://www.github.com/Rithvik0701)
-- [@pragya0629](https://www.github.com/pragya0629)
-
-
 ## Features
 
 - Implemented Code Santization
@@ -25,13 +16,11 @@ CODEX is a Remote Code Executor which lets you execute short code snippets of yo
 - The parameters like Time taken to run the code and Total memory used have been limited, allowing efficient management of resources.
 - The code execution happens asynchronously, allowing the server to handle multiple requests at the same time.
 
-
 ## Tech Stack
 
 **Client:** React
 
 **Server:** Node, Express, Docker
-
 
 ## Prerequisites
 
@@ -72,13 +61,15 @@ Build the Docker images
 ```
 
 ```bash
-  sudo docker build -t java:v1 ./java 
+  sudo docker build -t java:v1 ./java
 ```
+
 ```bash
-  sudo docker build -t cpp:v1 ./cpp 
+  sudo docker build -t cpp:v1 ./cpp
 ```
+
 ```bash
-  sudo docker build -t py:v1 ./python 
+  sudo docker build -t py:v1 ./python
 ```
 
 ## Usage
@@ -108,8 +99,6 @@ cd ../frontend && npm start
 ![App Screenshot](https://i.ibb.co/0KbTh6S/Screenshot-from-2023-03-20-22-47-05.png)
 ![App Screenshot](https://i.ibb.co/TM0h50s/Screenshot-from-2023-03-20-22-48-56.png)
 ![App Screenshot](https://i.ibb.co/d2vxwqJ/Screenshot-from-2023-03-20-22-49-11.png)
-
-
 
 ## Contributing
 
